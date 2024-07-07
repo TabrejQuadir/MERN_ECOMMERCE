@@ -73,7 +73,7 @@ const Login = () => {
   }, [isError, error]);
 
   return (
-    <div className="flex min-h-screen">
+    <div className="flex min-h-screen px-10">
       <div className="md:flex md:flex-col md:justify-center md:w-1/2 p-10 bg-gray-800 text-white">
         <h1 className="text-3xl font-bold mb-4">
           <span className="bg-gradient-to-r text-transparent bg-clip-text from-pink-500 via-orange-500 to-sky-500">Sign In</span>

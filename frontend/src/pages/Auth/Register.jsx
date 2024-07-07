@@ -47,7 +47,7 @@ const Register = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row min-h-screen">
+    <div className="flex flex-col md:flex-row min-h-screen px-10">
       <div className="md:w-1/2 flex flex-col justify-center p-10 bg-gray-800 text-white">
         <h1 className="text-3xl font-bold mb-4">
           <span className="bg-gradient-to-r text-transparent bg-clip-text from-orange-300 via-pink-500 to-sky-500">

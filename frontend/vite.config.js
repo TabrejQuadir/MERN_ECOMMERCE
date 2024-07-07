@@ -7,12 +7,12 @@ export default defineConfig({
   server: {
     proxy: {
       "/api/": {
-        target: "https://mern-ecommerce-backend-f3fi.onrender.com",
+        target: "https://mern-ecommerce-backend-38vy.onrender.com",
         changeOrigin: true,
         secure: false,
       },
       "/uploads/": {
-        target: "https://mern-ecommerce-backend-f3fi.onrender.com",
+        target: "https://mern-ecommerce-backend-38vy.onrender.com",
         changeOrigin: true,
         secure: false,
       },
