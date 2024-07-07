@@ -21,7 +21,13 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
-app.use(cors)
+const cors = require('cors');
+
+app.use(cors({
+  origin: 'https://mern-ecommerce-vcr8.onrender.com', 
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true,
+}));
 
 app.use("/api/users", userRoutes);
 app.use("/api/category", categoryRoutes);
