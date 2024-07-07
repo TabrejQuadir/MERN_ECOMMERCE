@@ -11,7 +11,7 @@ import categoryRoutes from "./routes/categoryRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
 import uploadRoutes from "./routes/uploadRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
-
+import cors from "cors";
 dotenv.config({ path: '../.env' });
 const port = process.env.PORT || 5000;
 connectDB();
@@ -21,6 +21,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
+app.use(cors)
 
 app.use("/api/users", userRoutes);
 app.use("/api/category", categoryRoutes);
