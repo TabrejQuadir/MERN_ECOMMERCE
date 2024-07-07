@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api/": "https://mern-ecommerce-backend-a4k7.onrender.com",
-      "/uploads/": "https://mern-ecommerce-backend-a4k7.onrender.com",
+      "/api/": "https://mern-ecommerce-backend-f3fi.onrender.com",
+      "/uploads/": "https://mern-ecommerce-backend-f3fi.onrender.com",
     },
   },
 });
