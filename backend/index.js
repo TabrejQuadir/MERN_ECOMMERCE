@@ -21,7 +21,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
-const cors = require('cors');
+// const cors = require('cors');
 
 app.use(cors({
   origin: 'https://mern-ecommerce-vcr8.onrender.com', 
