@@ -24,7 +24,7 @@ app.use(cookieParser());
 // const cors = require('cors');
 
 app.use(cors({
-  origin: 'https://mern-ecommerce-vcr8.onrender.com', 
+  origin: 'https://mern-ecommerce-frontend-lrwc.onrender.com', 
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
 }));
