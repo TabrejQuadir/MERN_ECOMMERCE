@@ -1,4 +1,4 @@
-export const BASE_URL = import.meta.env.VITE_BASE_URL || "";
+export const BASE_URL = import.meta.env.VITE_BASE_URL || "https://mern-ecommerce-backend-s0i1.onrender.com";
 export const USERS_URL = `${BASE_URL}/api/users`;
 export const CATEGORY_URL = `${BASE_URL}/api/category`;
 export const PRODUCT_URL = `${BASE_URL}/api/products`;
